@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="450" viewBox="0 0 880 450" role="img" aria-label="Terminal de presentación: Ariel Michelli, Desarrollador Full Stack con más de 6 años de experiencia">
+  <style>
+    text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono","DejaVu Sans Mono",monospace}
+    .dim{fill:#8a7f76}
+    .txt{fill:#f1e9e1}
+    .acc{fill:#ff7a1a}
+    .b{font-weight:700}
+    .fade{animation:fade .5s ease-out backwards}
+    @keyframes fade{from{opacity:0}to{opacity:1}}
+    .blink{animation:blink 1.1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+
+  <!-- ventana -->
+  <rect x="1" y="1" width="878" height="448" rx="12" fill="#120d0a" stroke="#2b2019"/>
+  <path d="M1 39H879" stroke="#2b2019"/>
+  <circle cx="26" cy="20" r="5" fill="#3a2e26"/>
+  <circle cx="44" cy="20" r="5" fill="#3a2e26"/>
+  <circle cx="62" cy="20" r="5" fill="#3a2e26"/>
+  <text x="440" y="24" text-anchor="middle" font-size="12" class="dim">ariel@github — ~/</text>
+
+  <!-- prompt -->
+  <g class="fade" style="animation-delay:.2s">
+    <text x="30" y="84" font-size="18" class="acc b">&gt;</text>
+    <text x="56" y="84" font-size="16" class="txt b">ariel --whoami</text>
+  </g>
+
+  <!-- lineas -->
+  <g class="fade" style="animation-delay:.6s">
+    <circle cx="38" cy="119" r="4" fill="#ff7a1a"/>
+    <text x="56" y="124" font-size="14" class="txt b">Read(profile.md)</text>
+    <text x="322" y="124" font-size="12" class="dim">└</text>
+    <text x="340" y="124" font-size="14" class="dim">Desarrollador Full Stack · +6 años</text>
+  </g>
+  <g class="fade" style="animation-delay:.9s">
+    <circle cx="38" cy="145" r="4" fill="#ff7a1a"/>
+    <text x="56" y="150" font-size="14" class="txt b">Read(stack.md)</text>
+    <text x="322" y="150" font-size="12" class="dim">└</text>
+    <text x="340" y="150" font-size="14" class="dim">Tecnologías web modernas</text>
+  </g>
+  <g class="fade" style="animation-delay:1.2s">
+    <circle cx="38" cy="171" r="4" fill="#ff7a1a"/>
+    <text x="56" y="176" font-size="14" class="txt b">Read(values.md)</text>
+    <text x="322" y="176" font-size="12" class="dim">└</text>
+    <text x="340" y="176" font-size="14" class="dim">Diseño atractivo · Funcionalidad robusta</text>
+  </g>
+
+  <!-- tarjeta interna -->
+  <g class="fade" style="animation-delay:1.6s">
+    <rect x="24" y="196" width="832" height="212" rx="8" fill="none" stroke="#a8500f"/>
+    <path d="M340 218V386" stroke="#2b2019"/>
+
+    <!-- avatar placeholder -->
+    <text x="182" y="318" text-anchor="middle" font-size="84" class="acc b">&gt;_</text>
+
+    <text x="372" y="246" font-size="32" class="txt b">Ariel Michelli</text>
+    <text x="372" y="274" font-size="14" letter-spacing="1.5" class="acc">Full Stack Dev · Web moderno · +6 años</text>
+
+    <text x="372" y="306" font-size="13" class="dim">Creo soluciones tecnológicas que combinan</text>
+    <text x="372" y="326" font-size="13" class="dim">diseño atractivo y funcionalidad robusta,</text>
+    <text x="372" y="346" font-size="13" class="dim">con tecnologías modernas y buenas prácticas.</text>
+
+    <text x="372" y="376" font-size="13" class="txt b">
+      <tspan>Frontend</tspan><tspan dx="18">Backend</tspan><tspan dx="18">APIs</tspan><tspan dx="18">Diseño</tspan>
+    </text>
+    <text x="372" y="396" font-size="13" class="acc">apasionado por crear soluciones</text>
+  </g>
+
+  <!-- prompt final con cursor -->
+  <g class="fade" style="animation-delay:2s">
+    <text x="30" y="434" font-size="18" class="acc b">&gt;</text>
+    <rect class="blink" x="52" y="421" width="9" height="16" fill="#ff7a1a"/>
+  </g>
+</svg>
